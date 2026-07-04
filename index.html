@@ -458,7 +458,7 @@ function buildChips(){
 searchBox.addEventListener("input", e => { query = e.target.value; render(); });
 
 /* ---- WhatsApp share: builds a message with the 5 newest files ---- */
-const SITE_URL = "https://pyteachersdesk.github.io";  // change if your address is different
+const SITE_URL = "https://pyteachersdesk-lgtm.github.io";  // change if your address is different
 
 document.getElementById("waShare").addEventListener("click", () => {
   const latest = [...DOCS].sort((a,b) => b.date.localeCompare(a.date)).slice(0, 5);
